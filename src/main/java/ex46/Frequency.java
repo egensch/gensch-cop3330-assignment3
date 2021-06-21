@@ -50,7 +50,8 @@ public class Frequency {
 
             //Find each word
             Map<String,Integer> freq = new HashMap<String,Integer>();
-            String[] words;
+            String str = "Badger mushroom snake";
+             String [] words = str.split(" ", 3);
             for(String word : words) {
                 String w = word.toLowerCase();
                 if (freq.containsKey(w)) {
